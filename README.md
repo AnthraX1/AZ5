@@ -16,7 +16,7 @@ MongoDB SCRAM-SHA-1 bruteforcer
 ```
 
 * -passfile Can be S3 bucket path, such as s3://bucket/object, the object must be gzipped. 
-* -salt and -serverkey must be in it's original Base64 encoded format.
+* -salt and -serverkey must be in their original Base64 encoded format.
 
 ## Example:
 ./mongobrute -salt RMsRzAD1ONlZN19sRjqRpw== -username admin -serverkey YsIpaLeJo28RvHXf37Pk4Obe/jE= -passfile dict.txt
