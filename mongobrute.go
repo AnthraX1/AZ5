@@ -113,14 +113,6 @@ func passwordProducer(filename string, passwordChan chan string) {
 	}
 }
 
-func inArray(a string, list []string) bool {
-	for _, b := range list {
-		if b == a {
-			return true
-		}
-	}
-	return false
-}
 
 func worker(wg *sync.WaitGroup, config *Config, passwordChan chan string) {
 	defer wg.Done()
