@@ -20,3 +20,5 @@ MongoDB SCRAM-SHA-1 bruteforcer
 
 ## Example:
 ./mongobrute -salt RMsRzAD1ONlZN19sRjqRpw== -username admin -serverkey YsIpaLeJo28RvHXf37Pk4Obe/jE= -passfile dict.txt
+
+The password above should be "admin"
